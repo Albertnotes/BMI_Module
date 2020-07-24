@@ -1,9 +1,9 @@
-import * as utility from '../../variables/utility.js';
+import * as utility from '../variables/utility.js';
 import renderRecord from '../view/renderRecord.js';
 import renderAverage from '../view/renderAverage.js';
 
 /**
- * 計算
+ * 計算 BMI 值與紀錄次數與平均
  * @param {*} h 使用者身高
  * @param {*} w 使用者體重
  */

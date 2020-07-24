@@ -1,4 +1,4 @@
-import clickBMICountAndDel from './methods/event/clickBMICountAndDel.js';
+import clickBMICountAndDel from './controller/clickBMICountAndDel.js';
 
 (function () {
 	clickBMICountAndDel();

@@ -1,3 +1,7 @@
+/**
+ * 渲染 BMI 累計紀錄
+ * @param {*} average 傳入 bmiStatus['averageCount'] bmi 紀錄次數與平均
+ */
 export default function renderAverage(average) {
 	const averageDom = document.querySelector('.js-Average');
 	const { number, value } = average;
